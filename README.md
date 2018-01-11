@@ -1,6 +1,6 @@
 # address-book
 
-> Magnetic Take Home Test
+> Take Home Test
 
 ## Build Setup
 
