@@ -1,0 +1,57 @@
+$accent-color: #4a90e2;
+
+table.table td, 
+table.table th {
+	background: #fff;
+	border-color: #f5f8fa;
+}
+
+.edit-link {
+	color: #333;
+	font-size: 16px;
+}
+
+.heading-row {
+	margin-bottom: 20px;
+}
+
+.blurred {
+	filter: blur(5px);
+}
+
+body {
+    background: #f5f8fa;
+    color: #7f7f7f;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 90%;
+}
+
+button.btn {
+    border-radius: 0;
+    background-color: $accent-color;
+    border-color: $accent-color;
+    text-transform: uppercase;
+    font-size: 13px;
+
+    &:hover {
+        background-color: #3181c1;
+    }
+}
+
+.modal-backdrop.show {
+    opacity: 0;
+}
+
+.modal.show .modal-dialog {
+    margin-top: 160px;
+    width: 360px;
+
+    .modal-content {
+        border-color: #fff;
+        border-radius: 0px;
+        box-shadow: 0 0 7px -2px #bbb;
+    }
+}

@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactList.vue should render correct dom elements 1`] = `
+<div>
+  <div
+    class=""
+  >
+    <header
+      class="app-header"
+    >
+      <div
+        class="container"
+      >
+        <img
+          src="@/assets/images/logo.png"
+        />
+      </div>
+    </header>
+     
+    <div
+      class="container"
+    >
+      <div
+        class="row heading-row"
+      >
+        <div
+          class="col"
+        >
+          <h4>
+            Clients
+          </h4>
+        </div>
+         
+        <div
+          class="text-right col"
+        >
+          <a
+            class=""
+            href="/create"
+          >
+            <button
+              class="btn btn-secondary"
+              type="button"
+            >
+              <i
+                aria-hidden="true"
+                class="fa fa-plus"
+              />
+                Add client
+            </button>
+          </a>
+        </div>
+      </div>
+       
+      <table
+        aria-busy="false"
+        aria-colcount="4"
+        class="table b-table border"
+      >
+        <!---->
+        <!---->
+        <thead
+          class=""
+        >
+          <tr>
+            <th
+              aria-colindex="1"
+              aria-label="Click to sort Descending"
+              class="sorting"
+              tabindex="0"
+            >
+              Name
+            </th>
+            <th
+              aria-colindex="2"
+              aria-label="Click to sort Descending"
+              class="sorting"
+              tabindex="0"
+            >
+              Phone
+            </th>
+            <th
+              aria-colindex="3"
+              aria-label="Click to sort Descending"
+              class="sorting"
+              tabindex="0"
+            >
+              Birthday
+            </th>
+            <th
+              aria-colindex="4"
+              class=""
+            >
+               
+            </th>
+          </tr>
+        </thead>
+        <!---->
+        <tbody
+          class=""
+        >
+          <!---->
+          <!---->
+          <!---->
+        </tbody>
+      </table>
+    </div>
+  </div>
+   
+  <!---->
+</div>
+`;
